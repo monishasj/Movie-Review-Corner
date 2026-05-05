@@ -1,0 +1,28 @@
+.review {
+  font-size: 14px;
+  color: #444;
+  margin: 10px 0;
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* Optional: Dark theme (Netflix style 🔥) */
+body {
+  background-color: #141414;
+  color: white;
+}
+
+.card {
+  background: #1f1f1f;
+  color: white;
+}
+
+.card img {
+  width: 180px;      /* 👈 smaller width */
+  height: 250px;     /* 👈 fixed height */
+  object-fit: cover; /* keeps image ratio clean */
+  border-radius: 10px;
+}
